@@ -1,0 +1,60 @@
+body {
+	font-family: Rubik Iso, sans-serif;
+	background-color: black;
+	display: grid;
+	place-content: center;
+	min-height: 70vh;
+	margin: 0;
+	text-align: center;
+	color: #ED2449;
+}
+
+img {
+	width: 200px;
+}
+
+.spinningcat {
+	margin: auto;
+	filter: drop-shadow(0 0 25px #FF3B3B);
+	width: 300px;
+}
+
+p {
+	font-family: sans-serif;
+}
+
+.grid {
+	border: 3px dotted white;
+	border-radius: 10px;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 5px;
+}
+
+.column {
+	flex: 50%;
+	padding: 0 5px;
+}
+
+.column img {
+	margin-top: 10px;
+	vertical-align: center;
+}
+
+.column img:hover {
+	width: 50%;
+	transition: 0.2s ease-in;
+	cursor: crosshair;
+}
+
+a {
+	color: white;
+	font-size: large;
+	font-family: Arial;
+	background-color: rgba(179, 13, 42, 60%);
+	padding: 5px 5px;
+	border-radius: 10px;
+}
